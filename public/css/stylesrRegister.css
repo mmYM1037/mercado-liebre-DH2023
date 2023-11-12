@@ -1,0 +1,46 @@
+main {
+    font-size: 12px;
+}
+
+.formRegistro {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cajaInput {
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+    color: #666;
+    border-radius: 5px;
+}
+
+.tituloSeccionChico {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tipoUsuario0 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interes {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.interesCheck {
+    margin-right: 20px;
+}
+
+.botonLinea {
+    display: inline;
+    padding: 5px 10px;
+}
+
+.cajaInput, .tituloSeccionChico, .tipoUsuario0, .interes, .botonLinea {
+    margin: 10px 0;
+}

@@ -1,0 +1,97 @@
+/* Clase 19 */
+/*Media querie para tablets*/
+@media (min-width: 361px) {
+
+    .top-navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .top-navbar2 {
+        width: 30vw;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    
+    .navbar-encabezado {
+        /* Clase 19 */        
+        display: flex;
+        /**/
+        justify-content: space-between;
+    }
+
+    .logoPrincipal {
+        width: 30vw;
+        display: flex;
+    }
+
+    .promo {
+        width: 30vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-encabezado-izq, .navbar-encabezado-der {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .navbar-encabezado li {
+        margin: 0 5px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .iconoHamburg {
+        /* Clase 19 */
+        /* Clase 20 */
+        display: none;
+        /**/
+    }
+
+    .contenedorArticuloConImagen {
+        max-width: 50vw;
+    }
+
+    .articulo2 {
+        /* Clase 20 */
+        display: block;
+        /**/
+    }
+
+    .descripcion {
+        /* Clase 19 */
+        opacity: 1;
+        /**/
+    }
+
+}
+
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+
+
+/* Clase 19 */
+/*Media querie para desktop*/
+@media (min-width: 769px) {
+    
+    .cajaBusqueda {
+        margin-right: 10px;
+    }
+    .articulo3, .articulo4 {
+        /* Clase 20 */
+        display: block;
+        /**/
+    }
+
+    .navbar-footer {
+        /* Clase 22 */
+        flex-direction: row;
+        /**/
+    }
+}
