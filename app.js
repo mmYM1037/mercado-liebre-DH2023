@@ -10,7 +10,7 @@ app.use (express.static(publicPath))
 let port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-    console.log("Servidor On");
+    console.log("Servidor On en el puerto " + port);
 })
 
 app.get("/", (req, res) => {
